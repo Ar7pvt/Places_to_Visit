@@ -1,4 +1,4 @@
-# Roamy - User Flow Sequence Diagram
+# BHRAMAN - User Flow Sequence Diagram
 
 ```mermaid
 sequenceDiagram

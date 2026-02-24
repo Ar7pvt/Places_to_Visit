@@ -56,7 +56,7 @@ const LocationDetailsPage = () => {
     return (
       <div className="location-details-page">
         <header className="app-header">
-          <h1>🌍 Roamy</h1>
+          <h1>🌍 BHRAMAN</h1>
         </header>
         <div className="container">
           <div className="loading">Loading location details...</div>
@@ -69,7 +69,7 @@ const LocationDetailsPage = () => {
     return (
       <div className="location-details-page">
         <header className="app-header">
-          <h1>🌍 Roamy</h1>
+          <h1>🌍 BHRAMAN</h1>
         </header>
         <div className="container">
           <div className="error">{error || 'Location not found'}</div>
@@ -84,7 +84,7 @@ const LocationDetailsPage = () => {
   return (
     <div className="location-details-page">
       <header className="app-header">
-        <h1>🌍 Roamy</h1>
+        <h1>🌍 BHRAMAN</h1>
         <p>Travel destination details</p>
       </header>
 

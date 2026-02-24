@@ -73,7 +73,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <header className="app-header">
-        <h1>🌍 Roamy</h1>
+        <h1>🌍 BHRAMAN</h1>
         <p>Discover amazing travel destinations around the world</p>
       </header>
 

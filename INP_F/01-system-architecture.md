@@ -1,4 +1,4 @@
-# Roamy - System Architecture
+# BHRAMAN - System Architecture
 
 ```mermaid
 graph TB

@@ -1,6 +1,6 @@
-# Roamy Architecture Diagrams
+# BHRAMAN Architecture Diagrams
 
-This folder contains all workflow and architecture diagrams for the Roamy travel discovery webapp.
+This folder contains all workflow and architecture diagrams for the BHRAMAN travel discovery webapp.
 
 ## 📊 Diagram Files
 

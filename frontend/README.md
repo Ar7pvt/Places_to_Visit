@@ -1,4 +1,4 @@
-# Roamy Travel App - Frontend
+# BHRAMAN Travel App - Frontend
 
 High-performance React frontend for discovering travel locations with interactive maps.
 

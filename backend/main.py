@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import locations
 
-app = FastAPI(title="Roamy Travel API", version="1.0.0")
+app = FastAPI(title="BHRAMAN Travel API", version="1.0.0")
 
 # CORS configuration
 app.add_middleware(
@@ -18,7 +18,7 @@ app.include_router(locations.router, prefix="/api", tags=["locations"])
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to Roamy Travel API"}
+    return {"message": "Welcome to BHRAMAN Travel API"}
 
 @app.get("/health")
 async def health_check():

@@ -1,4 +1,4 @@
-# Roamy - React Component Hierarchy
+# BHRAMAN - React Component Hierarchy
 
 ```mermaid
 graph TB

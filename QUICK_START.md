@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - Roamy Travel App
+# 🚀 Quick Start Guide - BHRAMAN Travel App
 
 ## ⚡ What You'll Get
 
@@ -24,7 +24,7 @@ Open a terminal and run:
 
 ```powershell
 # Navigate to backend directory
-cd E:\Roamy\backend
+cd E:\BHRAMAN\backend
 
 # Create virtual environment
 python -m venv venv
@@ -48,7 +48,7 @@ Open a NEW terminal and run:
 
 ```powershell
 # Navigate to frontend directory
-cd E:\Roamy\frontend
+cd E:\BHRAMAN\frontend
 
 # Install dependencies (first time only)
 npm install
@@ -64,7 +64,7 @@ npm start
 ## 📂 Project Structure
 
 ```
-Roamy/
+BHRAMAN/
 ├── backend/                    # FastAPI Backend
 │   ├── main.py                # Entry point & CORS setup
 │   ├── models.py              # Data models (Location, Coordinates, etc.)

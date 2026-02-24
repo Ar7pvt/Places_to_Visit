@@ -1,6 +1,6 @@
-# Roamy Travel API - Backend
+# BHRAMAN Travel API - Backend
 
-High-performance FastAPI backend for the Roamy travel locations webapp.
+High-performance FastAPI backend for the BHRAMAN travel locations webapp.
 
 ## ⚡ Performance Features
 
@@ -57,6 +57,6 @@ Once running, visit:
 
 ## Data Source
 
-**File**: `E:\Roamy\DATA\locations_dataset_500.csv`  
+**File**: `E:\BHRAMAN\DATA\locations_dataset_500.csv`  
 **Format**: ID, Name, Description, City, Country, Category, Latitude, Longitude, Rating, Price Range, Image URL, Address, Opening Hours, Tourism Links  
 **Indexing**: Triple-indexed (country, city, category) + ID hash map + set-based indexes

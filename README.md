@@ -1,4 +1,4 @@
-# 🌍 Roamy - Travel Locations Webapp
+# 🌍 BHRAMAN - Travel Locations Webapp
 
 A high-performance full-stack web application for discovering and exploring travel destinations around the world with interactive maps and rich location information.
 
@@ -25,7 +25,7 @@ A high-performance full-stack web application for discovering and exploring trav
 ## 🏗️ Project Structure
 
 ```
-Roamy/
+BHRAMAN/
 ├── backend/              # FastAPI Python backend
 │   ├── main.py          # Application entry point
 │   ├── models.py        # Pydantic data models
@@ -196,7 +196,7 @@ The app will open at `http://localhost:3000`
 - **Request Caching**: 60-second TTL, 100-entry cache
 
 ### Data
-- **Dataset**: 500 locations from CSV file
+- **Dataset**: 100000 locations from CSV file
 - **Coverage**: 18 countries, 30 cities, 16 categories
 - **Fields**: ID, Name, Description, City, Country, Category, Coordinates, Rating, Price Range, Image URL, Address, Hours, Tourism Links
 
@@ -251,7 +251,7 @@ This project is open source and available under the MIT License.
 ## 👨‍💻 Development
 
 ### Data Source
-Locations are loaded from: `E:\Roamy\DATA\locations_dataset_500.csv`
+Locations are loaded from: `E:\BHRAMAN\DATA\locations_dataset_500.csv`
 
 To add new locations:
 1. Add rows to the CSV file with the required columns
@@ -290,6 +290,8 @@ ID,Name,Description,City,Country,Category,Latitude,Longitude,Rating,Price Range,
 }
 ```
 
+## Future Integration
+Integrating AIML model to find Best and Sortest Root to visit
 ## 🎉 Happy Traveling!
 
-Explore the world with Roamy! 🌍✈️
+Explore the world with BHRAMAN! 🌍✈️

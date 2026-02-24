@@ -1,4 +1,4 @@
-# Roamy - Technology Stack & Deployment Architecture
+# BHRAMAN - Technology Stack & Deployment Architecture
 
 ```mermaid
 graph TB
@@ -46,7 +46,7 @@ graph TB
             PROD_FE["Build Frontend<br/>npm run build<br/>Static files in build/"]
             PROD_BE["FastAPI Server<br/>uvicorn main:app<br/>--host 0.0.0.0 --port 8000"]
             NGINX["Nginx (Optional)<br/>Reverse proxy<br/>Serve static files"]
-            CSV_DATA["CSV Data Source<br/>500 locations<br/>E:\Roamy\DATA\<br/>locations_dataset_500.csv"]
+            CSV_DATA["CSV Data Source<br/>500 locations<br/>E:\BHRAMAN\DATA\<br/>locations_dataset_500.csv"]
             INDEXES_PROD["Startup Indexing<br/>Build indexes on load<br/>~2-3 seconds"]
         end
     end
@@ -127,7 +127,7 @@ graph TB
 
 ## 📦 Data Source
 
-**File**: `E:\Roamy\DATA\locations_dataset_500.csv`  
+**File**: `E:\BHRAMAN\DATA\locations_dataset_500.csv`  
 **Format**: CSV with 14 columns  
 **Columns**: ID, Name, Description, City, Country, Category, Latitude, Longitude, Rating, Price Range, Image URL, Address, Opening Hours, Tourism Links  
 
