@@ -1,0 +1,60 @@
+.home-page {
+  min-height: 100vh;
+}
+
+/* Segmented Control View Toggle - Glassmorphic */
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  border: none;
+  border-radius: 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.toggle-button:hover {
+  color: #4f46e5;
+}
+
+.toggle-button.active {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.results-header {
+  margin-bottom: 1.5rem;
+}
+
+.results-header h2 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .view-toggle {
+    width: 100%;
+  }
+}
